@@ -10,8 +10,8 @@ const website = "nicheexplorer";
  * ***********************************************
  * ***********************************************
  */
-// Navbar menu and categories list on home page --- 31 days
-const revalidateCategoriesTitleSlug = 2678400;
+// Navbar menu and categories list on home page --- 2 hours
+const revalidateCategoriesTitleSlug = 7200;
 // Hero section posts --- 6 hours
 const revalidatePostsHero = 21600;
 // Latest news on the home page --- 15 minutes
@@ -20,10 +20,10 @@ const revalidatePostsLatest = 900;
 const revalidatePostsTop = 7200;
 // category wise posts on home page --- 1 hour
 const revalidatePostsCategoryThreeMin = 10800;
-// categories on the categories page --- 31 days
-const revalidateCategories = 2678400;
-// category on the category page --- 31 days
-const revalidateCategory = 2678400;
+// categories on the categories page --- 2 hours
+const revalidateCategories = 7200;
+// category on the category page --- 2 hours
+const revalidateCategory = 7200;
 // post on category 1st page ---  6 hours
 const revalidatePostsCategory = 21600;
 // post count on category page --- 6 hours
@@ -36,16 +36,16 @@ const revalidatePostsLatestFirstBatch = 900;
 const revalidatePostsLatestCount = 900;
 // post on latest news page pagination --- 15 minutes
 const revalidatePostsLatestPage = 900;
-// post details on blog post page --- 1 day
-const revalidatePost = 86400;
+// post details on blog post page ---2 hours
+const revalidatePost = 7200;
 // pr posts on the side bar of the blog page --- 3 hours
 const revalidatePostsLatestSide = 10800;
 // posts on the side bar of the blog page --- 6 hours
 const revalidatePostsTopSide = 21600;
 // latest new three on blog page --- 15 minutes
 const revalidatePostsLatestThree = 900;
-// related news on blog post page --- 1 day
-const revalidatePostsCategoryThree = 86400;
+// related news on blog post page --- 2 hours
+const revalidatePostsCategoryThree =7200;
 
 /**
  * ***********************************************
